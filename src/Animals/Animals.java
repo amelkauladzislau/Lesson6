@@ -1,9 +1,12 @@
+package Animals;
 
-
-    public enum Animals {
+public enum Animals {
         Dog(1, "Dog"),
-        Cat(2, "Cat");
-
+        Cat(2, "Cat"),
+        Carp(3,"Carp"),
+        Shark(4,"Shark"),
+        Eagle(5,"Eagle"),
+        Chicken(6,"Chicken");
         private int count;
         private String animal;
 
